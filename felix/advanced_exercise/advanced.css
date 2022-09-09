@@ -1,3 +1,7 @@
+body {
+    background-color: #aebec2;
+}
+
 footer {
     background-color: #aebec2;
     font-size: 3rem;
@@ -16,14 +20,31 @@ nav {
 
 a { font-size: 2rem;
     margin-right: 20px;
-    text-align: right;
+    text-align: justify;
     color:rgb(207, 220, 247)
 }
 
-img {
+.img-with-text {
     width: 150px;
     height: 150px;
-    
+    float:left;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 
