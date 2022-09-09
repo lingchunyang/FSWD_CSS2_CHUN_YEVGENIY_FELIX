@@ -1,20 +1,84 @@
 footer {
-    background-color: antiquewhite;
+    background-color: #aebec2;
+    font-size: 3rem;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
 }
-body {
-    font-family: Happy Monkey;
-}
+
 nav {
-    background-color: antiquewhite;
+    background-color: #aebec2;
     
 }
 
-a {
+a { font-size: 2rem;
     margin-right: 20px;
+    text-align: right;
+    color:rgb(207, 220, 247)
 }
 
 img {
-    width: 100px;
+    width: 150px;
     height: 150px;
     
+}
+
+
+    
+    #menu li{
+    display: inline-block;
+    background-color: #aebec2;
+    
+    list-style: none;
+    
+    }
+       
+    #menu li:hover{
+    background-color: #aebec2;
+    text-shadow: 2px 2px 4px #000000;
+    }
+
+
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hero1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Desktop-2-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+.hero2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/golf-gl5682-v1-web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+.hero3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/golf-variant-r-line-gv5434-web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
 }
